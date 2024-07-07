@@ -16,7 +16,7 @@
 
 /* header area css */
 
-.header{
+header{
     width: 100%;
     height: 100vh;
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(project/sunset-1373171_1280.jpg);
@@ -111,9 +111,15 @@
 }
 
 
+/* media  */
 
-
-
+#media{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
