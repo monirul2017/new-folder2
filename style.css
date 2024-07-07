@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.top{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.top h2{
+    color: rebeccapurple;
+    text-transform: capitalize;
+}
+
+.top  ul{
+    list-style: none;
+}
+
+.top ul li {
+    display: inline-block;
+
+}
+
+
+.top ul li a{
+    padding: 0px 15px ;
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 18px;
+}
